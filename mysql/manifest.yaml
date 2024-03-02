@@ -46,7 +46,7 @@ spec:
         image: narasimhapanthangi17/mysql:v1
         imagePullPolicy: Always
         envFrom:
-        - ConfigMapRef:
+        - configMapRef:
             name: mysql
         - secretRef:
             name: mysql
