@@ -1,8 +1,7 @@
 FROM python:3.9
 
 EXPOSE 8080
-ENV AMQP_USER=roboshop \
-    AMQP_PASS=roboshop123
+
 USER root
 
 WORKDIR /app
